@@ -47,6 +47,8 @@ body {
     border: none;
     cursor: pointer;
     border: 2px solid #ffe50d;
+    height: 50px;
+    font-size: 21px;
 }
 
 .container button:hover {
