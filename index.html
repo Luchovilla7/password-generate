@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>GENERADOR DE CONTRASEÑAS SEGURAS 🔒</h1>
+        <input 
+        type="text"
+        placeholder="Click en el boton para generar una contraseña segura"
+        id="display-password"
+        />
+        
+        <div class="generate-container">
+            <select name="passwordLength" id="password-length">
+                <option value="0" selected disabled>Seleccionar la longitud</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+                <option value="18">18</option>
+                <option value="30">30</option>
+            </select>
+            <button onclick="randomPassword()">Generar Contraseña</button>
+        </div>
+
+        <p id="error-info"></p>
+        
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
